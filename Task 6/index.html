@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bir"  >
+            <input class="goruntuleme" type="text" id="sonuc" />
+            <input type="button" onclick="ekraniTemizle()" id="btnc" value="C">
+        </div>
+        <div class="iki">
+            <input type="button" onclick="goruntule('1')" value="1" id="btn1">
+            <input type="button" onclick="goruntule('2')" value="2" id="btn1">
+            <input type="button" onclick="goruntule('3')" value="3" id="btn1">
+            <input type="button" onclick="goruntule('/')" value="/" id="btn1">
+        </div>
+        <div class="uc">
+            <input type="button" onclick="goruntule('4')" value="4" id="btn1">
+            <input type="button" onclick="goruntule('5')" value="5" id="btn1">
+            <input type="button" onclick="goruntule('6')" value="6" id="btn1">
+            <input type="button" onclick="goruntule('-')" value="-" id="btn1">
+        </div>
+        <div class="dort">
+            <input type="button" onclick="goruntule('7')" value="7" id="btn1">
+            <input type="button" onclick="goruntule('8')" value="8" id="btn1">
+            <input type="button" onclick="goruntule('9')" value="9" id="btn1">
+            <input type="button" onclick="goruntule('+')" value="+" id="btn1">
+        </div>
+        <div class="bes">
+            <input type="button" onclick="goruntule('.')" value="." id="btn1"> 
+            <input type="button" onclick="goruntule('0')" value="0" id="btn1">
+            <input type="button" onclick="hesapla()" value="=" id="btne">
+            <input type="button" onclick="goruntule('*')" value="*" id="btn1">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
